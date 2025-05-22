@@ -1,0 +1,42 @@
+@keyframes animated-border {
+0% {
+background-position: 0% 50%;
+}
+100% {
+background-position: 200% 50%;
+}
+}
+
+.animated-border {
+background: linear-gradient(270deg, #03a9f4, #f441a5, #03a9f4);
+background-size: 400% 400%;
+animation: animated-border 5s linear infinite;
+}
+
+.glow-effect {
+position: absolute;
+top: -6px;
+left: -6px;
+right: -6px;
+bottom: -6px;
+margin: auto;
+border-radius: 1.2em;
+background: linear-gradient(270deg, #03a9f4, #f441a5, #03a9f4);
+background-size: 400% 400%;
+filter: blur(12px);
+pointer-events: none;
+z-index: -10;
+opacity: 0;
+transform: scale(0.95);
+transition: opacity 0.4s ease, transform 0.4s ease;
+animation: animated-border 3s linear infinite;
+}
+
+.group:hover .glow-effect {
+opacity: 1;
+transform: scale(1);
+}
+
+.group:active .glow-effect {
+filter: blur(8px);
+}
