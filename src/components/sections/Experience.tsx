@@ -13,21 +13,21 @@ const experiences = [
     title: 'Web Development Intern',
     company: 'Infosys Springboard',
     description: 'Worked with a team to develop “Health Check Pro,” a responsive health monitoring website. Built frontend components and contributed to backend logic using HTML, CSS, JS, and APIs.',
-    duration: 'Mar 2025 – Jun 2023',
+    duration: 'Mar 2025 – May 2025',
     certificate: 'https://drive.google.com/file/d/1Ac633NspmJy4FTdxC6yZgKwSYdsDdI0M/view?usp=drive_link' // Replace with actual link
   },
   {
     title: '(Capstone Project) Cyber Security Intern',
     company: 'College Project with Brain o Vision',
     description: 'Created a secure file-sharing system using Streamlit, Railway.app, and Python cryptography libraries. Focused on user privacy and file encryption during cloud transmission.',
-    duration: 'May 2023 – Jun 2023',
+    duration: 'Dec 2024 – Feb 2025',
     certificate: 'https://drive.google.com/file/d/1LHkJahoGaKXfT7Z4u1R-D0ZiqpAlfv2a/view?usp=drive_link' // Replace with actual link
   },
   {
     title: '(Capstone Project)Data Science Intern',
     company: 'YHills EduTech',
     description: 'Created a secure file-sharing system using Streamlit, Railway.app, and Python cryptography libraries. Focused on user privacy and file encryption during cloud transmission.',
-    duration: 'May 2023 – Jun 2023',
+    duration: 'May 2023 – Jul 2023',
     certificate: 'https://drive.google.com/file/d/1u_0GF0HBHAMc8BddLetm79NA98OCJLBM/view?usp=sharing' // Replace with actual link
   }
 ];
